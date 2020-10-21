@@ -1,10 +1,28 @@
 @import "./variables";
 
 
-@mixin color($color){
-    background-color: $color;
+@mixin color($background_color){
+    background-color: $background_color;
+
 } 
 
 @mixin change_font_size($font) {
     font-size: $font;
+
+}
+
+@mixin text_pos() {
+    text-align: center;
+}
+
+@mixin box_prop() {
+    border-style: solid;
+    height: 300px;
+    width: 300px;
+    border-width: 3px;
+    border-color: black;
+}
+
+@mixin column() {
+    flex-direction: column;
 }

@@ -2,10 +2,27 @@
 @import "./functions";
 
 body {
+    @include color($background_color);
 
-    @include color($redder);
 }
 
-.test {
+.namn {
     @include change_font_size($super_large);
+    @include text_pos();
+}
+
+div {
+    @include column()
+}
+
+.spelBox {
+    @include box_prop()
+}
+
+.profil {
+    @include box_prop()
+}
+
+.gameMode {
+    @include box_prop()
 }

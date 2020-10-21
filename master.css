@@ -1,8 +1,40 @@
 body {
-  background-color: #990000;
+  background-color: white;
 }
 
-.test {
+.namn {
   font-size: 165px;
+  text-align: center;
+}
+
+div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.spelBox {
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  border-width: 3px;
+  border-color: black;
+}
+
+.profil {
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  border-width: 3px;
+  border-color: black;
+}
+
+.gameMode {
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  border-width: 3px;
+  border-color: black;
 }
 /*# sourceMappingURL=master.css.map */
