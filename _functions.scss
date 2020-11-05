@@ -15,14 +15,44 @@
     text-align: center;
 }
 
-@mixin box_prop() {
-    border-style: solid;
-    height: 300px;
-    width: 300px;
-    border-width: 3px;
-    border-color: black;
+@mixin startsida {
+    display: flex;
+    justify-content: center;
 }
 
-@mixin column() {
-    flex-direction: column;
+@mixin box_prop() {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-style: solid;
+    height: 350px;
+    width: 350px;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+@mixin name_box() {
+    margin-left: 70px;
+    margin-top: 30px;
+    border-style: solid;
+    height: 30px;
+    width: 200px;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 8px;
+}
+
+@mixin play_knapp {
+    margin-left: 70px;
+    margin-top: 20px;
+    border-style: solid;
+    height: 40px;
+    width: 200px;
+    border-color: black;
+    border-radius: 8px;
+}
+
+@mixin flex-grow() {
+    flex-grow: 1;
 }
