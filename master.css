@@ -20,31 +20,33 @@ body {
 }
 
 .startsida .spelBox {
+  position: relative;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 50px;
   border-style: solid;
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
   border-width: 3px;
   border-color: black;
   border-radius: 10px;
 }
 
 .startsida .profil {
+  position: relative;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 50px;
   border-style: solid;
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
   border-width: 3px;
   border-color: black;
   border-radius: 10px;
 }
 
 .startsida .profil .namn {
-  margin-left: 70px;
+  margin-left: 100px;
   margin-top: 30px;
   border-style: solid;
   height: 30px;
@@ -55,7 +57,7 @@ body {
 }
 
 .startsida .profil .play {
-  margin-left: 70px;
+  margin-left: 100px;
   margin-top: 20px;
   border-style: solid;
   height: 40px;
@@ -65,14 +67,65 @@ body {
 }
 
 .startsida .gameMode {
+  position: relative;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 50px;
   border-style: solid;
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
   border-width: 3px;
   border-color: black;
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.startsida .gameMode .ffa {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-style: solid;
+  height: 120px;
+  width: 100px;
+  border-color: black;
+  border-radius: 8px;
+}
+
+.startsida .gameMode .battleroyal {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-style: solid;
+  height: 120px;
+  width: 100px;
+  border-color: black;
+  border-radius: 8px;
+}
+
+.startsida .gameMode .teams {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-style: solid;
+  height: 120px;
+  width: 100px;
+  border-color: black;
+  border-radius: 8px;
+}
+
+.startsida .gameMode .experimental {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-style: solid;
+  height: 120px;
+  width: 100px;
+  border-color: black;
+  border-radius: 8px;
 }
 /*# sourceMappingURL=master.css.map */

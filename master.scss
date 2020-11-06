@@ -34,5 +34,22 @@ body {
 
     .gameMode {
         @include box_prop();
+        @include startsida();
+
+        .ffa{
+            @include gamemode_box();
+        }
+
+        .battleroyal{
+            @include gamemode_box();
+        }
+
+        .teams{
+            @include gamemode_box();
+        }
+
+        .experimental{
+            @include gamemode_box();
+        }
     }
 }
